@@ -2926,6 +2926,12 @@ img.u-pull-left {
     fill : var(--color-1);
 }
 
+.list-block__text_white {
+    color : var(--color-white);
+}
+.title-light {
+    color : var(--color-1-lighter);
+}
 /* ------------------------------------------------------------------- 
  * ## swiper overrides
  * ------------------------------------------------------------------- */
