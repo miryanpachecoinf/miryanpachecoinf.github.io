@@ -4022,6 +4022,26 @@ img.u-pull-left {
     transform  : translateY(0);
 }
 
+/* ===================================================================
+ * # PREGUNTAS FRECUENTES
+ *
+ *
+ * ------------------------------------------------------------------- */
+summary h5 {
+    border-color: #000000;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: white !important; 
+    
+}
+details p {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: var(--color-gray-6) !important;}
+
+details summary{
+    list-style: none;
+}
 /* ------------------------------------------------------------------- 
  * ## modal popup
  * ------------------------------------------------------------------- */
@@ -4173,7 +4193,7 @@ img.u-pull-left {
 }
 
 .s-clients h3 {
-    color      : white;
+    color      : var(--color-1-light);
     text-align : center;
     margin-top : 0;
 }
