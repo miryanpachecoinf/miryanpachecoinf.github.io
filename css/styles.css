@@ -4412,10 +4412,109 @@ details summary{
     margin-top : 0;
 }
 
+.formulario {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.07);
+    padding: 2rem 1.5rem;
+    transition: box-shadow 0.2s;
+}
+
+/** Formulario*/
+.formulario {
+        padding: 1.2rem 0.5rem;
+    }
+
+.formulario:hover {
+    box-shadow: 0 4px 16px rgba(79,140,255,0.15);
+}
+
 .s-footer__btns {
     margin-top  : var(--vspace-3_5);
     align-items : flex-start;
 }
+
+fieldset {
+    border: 2px solid #4f8cff;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1.5rem 1rem 1rem 1rem;
+    background: #fafdff;
+    position: relative;
+}
+
+legend {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #4f8cff;
+    padding: 0 12px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(79,140,255,0.07);
+}
+
+label {
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 0.3rem;
+    color: #2a2a2a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1.5px solid #b3d4fc;
+    border-radius: 6px;
+    background: #f7fbff;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+textarea:focus {
+    border-color: #4f8cff;
+    outline: none;
+    background: #eaf4ff;
+}
+
+input[type="submit"] {
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 6px rgba(79,140,255,0.10);
+}
+
+input[type="submit"]:hover {
+    background: #357ae8;
+    box-shadow: 0 4px 14px rgba(79,140,255,0.18);
+}
+
+/**Preguntas frecuentes*/
+.faq-container { font-family: Arial, sans-serif; max-width: 600px; margin: auto; }
+    details { margin-bottom: 10px; padding: 10px; border-bottom: 1px solid #ccc; }
+    summary { font-weight: bold; cursor: pointer; }
+    p { color: #555; }
+
+/* ------------------------------------------------------------------- 
+ * ## contact list
+ * ------------------------------------------------------------------- */
 
 .s-footer .contact-list {
     list-style  : none;
