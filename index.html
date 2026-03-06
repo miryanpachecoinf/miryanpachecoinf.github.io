@@ -739,21 +739,7 @@
                             <li>Quito - Ecuador</li>
                         </ul>
                     </div>
-
-                    <div>
-                        <?php
-                        $archivo = "contador.txt";
-                        $f = fopen($archivo, "r+");
-                        $visitas = fread($f, filesize($archivo));
-                        $visitas = $visitas + 1;
-                        rewind($f);
-                        fwrite($f, $visitas);
-                        fclose($f);
-                        echo "Visitas totales: " . $visitas;
-                        ?>
-
-                    </div>
-
+                    
                 </div>
             </div> <!-- end section-header -->
 
