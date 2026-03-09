@@ -92,6 +92,45 @@
         Para cualquier consulta relacionada con esta política de privacidad, puede contactar a:<br>
         <strong>Email:</strong> miryan.pacheco.inf@gmail.com
     </p>
+    <h2>Configuración de cookies</h2>
+
+    <p>
+        Puedes modificar tu consentimiento sobre el uso de cookies en cualquier momento.
+    </p>
+
+    <div class="my-5 p-4 bg-light rounded border">
+        <button type="button" class="btn btn-light btn-lg"
+            onclick="resetCookieConsent(); document.getElementById('cookie-banner').scrollIntoView({behavior: 'smooth'});">
+            <i class="fa-solid fa-cookie bg-light fs-3"></i> Cambiar configuración de cookies
+
+        </button>
+    </div>
+
+    <div id="cookie-banner" class="cookie-banner fixed-bottom bg-dark text-white shadow-lg" role="dialog"
+        aria-live="polite" aria-label="Consentimiento de cookies" hidden>
+        <div class="cookie-banner__content container-fluid py-4">
+            <div class="row align-items-center g-3">
+                <div class="col-lg-8">
+                    <p class="mb-0 fs-6">
+                        <strong>🔒 Privacidad:</strong> Esta web utiliza cookies de analítica para medir visitas con
+                        Google Analytics 4.
+                        Puedes aceptar o rechazar su uso.
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-lg-end gap-2 justify-content-center mt-3 mt-lg-0">
+                    <button id="cookie-reject" class="btn btn-outline-light" type="button">
+                        Rechazar
+                    </button>
+                    <button id="cookie-accept" class="btn btn-warning fw-bold" type="button">
+                        Aceptar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/consent-ga4.js"></script>
+    <br>
     <a href="index.html">Volver</a>
 </body>
 
